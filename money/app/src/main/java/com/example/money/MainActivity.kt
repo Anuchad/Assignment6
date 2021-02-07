@@ -45,5 +45,10 @@ class MainActivity : AppCompatActivity() {
            total.text = sum.toString()
 
         }
+        clear.setOnClickListener {
+            money.setText("")
+            textView5.text = ""
+            total.text = ""
+        }
     }
 }
